@@ -4,7 +4,14 @@
     color: white;
     font-family: 'Unica One', cursive;
     font-size: 60pt;
-    top: 50px;
+    top: 40%;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-family: 'Unica One', cursive;
+    font-size: 40pt;
 }
 
 #dropdownMenuButton {
@@ -17,7 +24,7 @@
 }
 
 #tophalf {
-    background-image: url(../images/bg1.jpg);
+    background-image: url(../images/bg6.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -28,7 +35,8 @@
 }
 
 #bottomhalf {
-    background: rgb(185, 185, 185);
+    border-top: 5px solid white;
+    background: rgb(2, 34, 41);
     z-index: 500;
     height: 50%;
     align-content: center;
@@ -54,4 +62,56 @@
     height: 175px;
     width: 175px;
     text-align: center;
+}
+
+.gallerytophalf {
+    background-image: url(../images/bg7.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+    height: 30%;
+}
+
+.blade {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+    height: 10%;
+    opacity: .6;
+    transition: height 1s;
+    color: black;
+    text-align: center;
+    font-family: 'Unica One', cursive;
+    font-size: 40pt;
+
+}
+
+.blade:hover {
+    height: 30%;
+    opacity: 1;
+    color: white;
+}
+
+#blade1 {
+    background-image: url(../images/bg6.jpg);
+}
+
+#blade2 {
+    background-image: url(../images/bg2.jpg);
+}
+
+#blade3 {
+    background-image: url(../images/bg3.jpg);
+}
+
+#blade4 {
+    background-image: url(../images/bg5.jpg);
+}
+
+#blade5 {
+    background-image: url(../images/bg4.jpg);
 }
