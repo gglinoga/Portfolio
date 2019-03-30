@@ -1,0 +1,57 @@
+#title {
+    text-align: center;
+    position: relative;
+    color: white;
+    font-family: 'Unica One', cursive;
+    font-size: 60pt;
+    top: 50px;
+}
+
+#dropdownMenuButton {
+    color: gray;
+    background: transparent;
+}
+
+#dropdown {
+    background: transparent;
+}
+
+#tophalf {
+    background-image: url(../images/bg1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+    height: 50%;
+
+}
+
+#bottomhalf {
+    background: rgb(173, 169, 169);
+    z-index: 500;
+    height: 50%;
+    align-content: center;
+}
+
+#ggpic {
+    width: 95%;
+    height: 95%;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+#bio {
+    color: white;
+}
+
+#imgcontainer {
+    position: relative;
+    bottom: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+}
