@@ -14,6 +14,7 @@ h2 {
     font-size: 40pt;
 }
 
+
 #dropdownMenuButton {
     color: white;
     background: transparent;
@@ -102,6 +103,7 @@ h2 {
 
 #blade2 {
     background-image: url(../images/bg2.jpg);
+    color: black;
 }
 
 #blade3 {
