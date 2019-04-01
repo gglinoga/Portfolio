@@ -35,12 +35,34 @@ h2 {
 
 }
 
+#contacttophalf{
+    background-image: url(../images/bg15.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+    height: 50%;
+}
+
+#contactbottomhalf {
+    border-top: 5px solid white;
+    background: rgb(104, 77, 55);
+    z-index: 500;
+    height: 50%;
+    align-content: center;
+    color: white;
+    font-family: 'Unica One', cursive;
+}
+
 #bottomhalf {
     border-top: 5px solid white;
     background: rgb(2, 34, 41);
     z-index: 500;
     height: 50%;
     align-content: center;
+    font-family: 'Unica One', cursive;
+
 }
 
 #ggpic {
@@ -98,7 +120,7 @@ h2 {
 }
 
 #blade1 {
-    background-image: url(../images/bg8.jpg);
+    background-image: url(../images/bg16.jpg);
 }
 
 #blade2 {
@@ -106,13 +128,17 @@ h2 {
 }
 
 #blade3 {
-    background-image: url(../images/bg12.jpg);
+    background-image: url(../images/bg17.jpg);
 }
 
 #blade4 {
-    background-image: url(../images/bg13.jpg);
+    background-image: url(../images/bg18.jpg);
 }
 
 #blade5 {
     background-image: url(../images/bg10.jpg);
+}
+
+#submitButton{
+    float: right;
 }
