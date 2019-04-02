@@ -25,7 +25,7 @@ h2 {
 }
 
 #tophalf {
-    background-image: url(../images/bg6.jpg);
+    background-image: url(../images/bg5.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -47,7 +47,7 @@ h2 {
 
 #contactbottomhalf {
     border-top: 5px solid white;
-    background: rgb(104, 77, 55);
+    background: #434240;
     z-index: 500;
     height: 50%;
     align-content: center;
@@ -57,7 +57,7 @@ h2 {
 
 #bottomhalf {
     border-top: 5px solid white;
-    background: rgb(2, 34, 41);
+    background: #2B4D66;
     z-index: 500;
     height: 50%;
     align-content: center;
@@ -105,12 +105,18 @@ h2 {
     z-index: 0;
     height: 10%;
     opacity: .6;
-    transition: height 1s;
+    transition: height .80s;
     color: black;
     text-align: center;
     font-family: 'Unica One', cursive;
     font-size: 40pt;
+    overflow: hidden;
 
+}
+
+.contact{
+    color: black;
+    text-align: center;
 }
 
 .blade:hover {
