@@ -1,150 +1,159 @@
 #title {
+  text-align: center;
+  position: relative;
+  color: white;
+  font-family: "Unica One", cursive;
+  font-size: 60pt;
+  top: 40%;
+}
+
+h1 {
+  color: black;
+}
+
+#resumeBlock, #linkedInBlock{
+    height: 90px;
     text-align: center;
-    position: relative;
-    color: white;
-    font-family: 'Unica One', cursive;
-    font-size: 60pt;
-    top: 40%;
+    font-size:40;
 }
 
 h2 {
-    text-align: center;
-    color: white;
-    font-family: 'Unica One', cursive;
-    font-size: 40pt;
+  text-align: center;
+  color: white;
+  font-family: "Unica One", cursive;
+  font-size: 40pt;
 }
 
-
 #dropdownMenuButton {
-    color: white;
-    background: transparent;
+  color: white;
+  background: transparent;
 }
 
 #dropdown {
-    background: transparent;
+  background: transparent;
 }
 
 #tophalf {
-    background-image: url(../images/bg5.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: 0;
-    height: 50%;
-
+  background-image: url(../images/bg5.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+  height: 50%;
 }
 
-#contacttophalf{
-    background-image: url(../images/bg15.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: 0;
-    height: 50%;
+#contacttophalf {
+  background-image: url(../images/bg15.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+  height: 50%;
 }
 
 #contactbottomhalf {
-    border-top: 5px solid white;
-    background: #434240;
-    z-index: 500;
-    height: 50%;
-    align-content: center;
-    color: white;
-    font-family: 'Unica One', cursive;
+  border-top: 5px solid white;
+  background: #434240;
+  z-index: 500;
+  height: 50%;
+  align-content: center;
+  color: white;
+  font-family: "Unica One", cursive;
 }
 
 #bottomhalf {
-    border-top: 5px solid white;
-    background: #2B4D66;
-    z-index: 500;
-    height: 50%;
-    align-content: center;
-    font-family: 'Unica One', cursive;
-
+  border-top: 5px solid white;
+  background: #2b4d66;
+  z-index: 500;
+  height: 50%;
+  align-content: center;
+  font-family: "Unica One", cursive;
 }
 
 #ggpic {
-    width: 100%;
-    height: 100%;
-    border: 5px solid white;
-    border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  border: 5px solid white;
+  border-radius: 50%;
 }
 
 #bio {
-    color: white;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 25;
+  text-align: justify;
 }
 
 #imgcontainer {
-    position: relative;
-    bottom: 60%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 175px;
-    width: 175px;
-    text-align: center;
+  position: relative;
+  bottom: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 175px;
+  width: 175px;
+  text-align: center;
 }
 
 .gallerytophalf {
-    background-image: url(../images/bg7.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: 0;
-    height: 30%;
+  background-image: url(../images/bg7.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+  height: 30%;
 }
 
 .blade {
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: 0;
-    height: 10%;
-    opacity: .6;
-    transition: height .80s;
-    color: black;
-    text-align: center;
-    font-family: 'Unica One', cursive;
-    font-size: 40pt;
-    overflow: hidden;
-
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+  height: 10%;
+  opacity: 0.6;
+  transition: height 0.8s;
+  color: black;
+  text-align: center;
+  font-family: "Unica One", cursive;
+  font-size: 40pt;
+  overflow: hidden;
 }
 
-.contact{
-    color: black;
-    text-align: center;
+.contact {
+  color: black;
+  text-align: center;
 }
 
 .blade:hover {
-    height: 30%;
-    opacity: 1;
-    color: white;
+  height: 30%;
+  opacity: 1;
+  color: white;
 }
 
 #blade1 {
-    background-image: url(../images/bg16.jpg);
+  background-image: url(../images/bg16.jpg);
 }
 
 #blade2 {
-    background-image: url(../images/bg9.jpg);
+  background-image: url(../images/bg9.jpg);
 }
 
 #blade3 {
-    background-image: url(../images/bg17.jpg);
+  background-image: url(../images/bg17.jpg);
 }
 
 #blade4 {
-    background-image: url(../images/bg18.jpg);
+  background-image: url(../images/bg18.jpg);
 }
 
 #blade5 {
-    background-image: url(../images/bg10.jpg);
+  background-image: url(../images/bg10.jpg);
 }
 
-#submitButton{
-    float: right;
+#submitButton {
+  float: right;
 }
