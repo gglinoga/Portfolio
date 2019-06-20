@@ -1,159 +1,158 @@
-#title {
-  text-align: center;
-  position: relative;
+body {
+  background-color: black;
+  font-family: "Montserrat", sans-serif;
+  z-index: -1000;
+}
+
+#section2 {
+  min-height: 500px;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  align-content: center;
   color: white;
-  font-family: "Unica One", cursive;
-  font-size: 60pt;
-  top: 40%;
+  opacity: 0.9;
+  background-image: url(../images/bg7.jpg);
+  width: auto;
+  background-attachment: fixed;
+  background-color: black;
+  top: 20%;
+}
+
+#section3 {
+  background-position: center;
+  height: auto;
+  min-height: 500px;
+  position: relative;
+  top: 20%;
+  width: auto;
+  align-content: center;
+}
+
+#section4 {
+  /* margin-right: 200px;
+  margin-left: 200px; */
+  height: auto;
+  min-height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  align-content: center;
+  background-image: url(../images/bg15.jpg);
+  width: auto;
+  background-attachment: fixed;
+  top: 20%;
+  opacity: 0.9;
+}
+
+#section5 {
+  position: relative;
+  top: 20%;
+  height: auto;
+  min-height: 500px;
+  background-color: black;
+}
+
+#section6 {
+  /* margin-right: 200px;
+  margin-left: 200px; */
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: auto;
+  background-attachment: fixed;
+  top: 100px;
+  height: auto;
+  min-height: 800px;
+  background-image: url(../images/bg18.jpg);
+  opacity: 0.9;
+  align-content: center;
+}
+
+#section1 {
+  position: relative;
+  height: auto;
+  min-height: 500px;
+  background-color: black;
+  color: white;
+  align-content: center;
+  top: 50%;
+}
+
+#container {
+  /* background-color: black; */
+  opacity: 0.9;
+}
+
+/* #row{
+  height: auto;
+} */
+
+
+#d-block mb-4 h-100:hover{
+  opacity: 0.5;
 }
 
 h1 {
-  color: black;
-}
-
-#resumeBlock, #linkedInBlock{
-    height: 90px;
-    text-align: center;
-    font-size:40;
+  font-size: 60pt;
+  position: relative;
+  top: 40%;
+  height: 200px;
 }
 
 h2 {
-  text-align: center;
-  color: white;
-  font-family: "Unica One", cursive;
-  font-size: 40pt;
-}
-
-#dropdownMenuButton {
-  color: white;
-  background: transparent;
-}
-
-#dropdown {
-  background: transparent;
-}
-
-#tophalf {
-  background-image: url(../images/bg5.jpg);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: 0;
-  height: 50%;
-}
-
-#contacttophalf {
-  background-image: url(../images/bg15.jpg);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: 0;
-  height: 50%;
-}
-
-#contactbottomhalf {
-  border-top: 5px solid white;
-  background: #434240;
-  z-index: 500;
-  height: 50%;
-  align-content: center;
-  color: white;
-  font-family: "Unica One", cursive;
-}
-
-#bottomhalf {
-  border-top: 5px solid white;
-  background: #2b4d66;
-  z-index: 500;
-  height: 50%;
-  align-content: center;
-  font-family: "Unica One", cursive;
-}
-
-#ggpic {
-  width: 100%;
-  height: 100%;
-  border: 5px solid white;
-  border-radius: 50%;
-}
-
-#bio {
-  color: white;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 25;
-  text-align: justify;
-}
-
-#imgcontainer {
+  font-size: 60pt;
   position: relative;
-  bottom: 60%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height: 175px;
-  width: 175px;
+  top: 50%;
+}
+
+h1,
+h2 {
   text-align: center;
-}
-
-.gallerytophalf {
-  background-image: url(../images/bg7.jpg);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: 0;
-  height: 30%;
-}
-
-.blade {
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: 0;
-  height: 10%;
-  opacity: 0.6;
-  transition: height 0.8s;
-  color: black;
-  text-align: center;
-  font-family: "Unica One", cursive;
-  font-size: 40pt;
-  overflow: hidden;
-}
-
-.contact {
-  color: black;
-  text-align: center;
-}
-
-.blade:hover {
-  height: 30%;
-  opacity: 1;
+  background: black;
+  opacity: 0.9;
+  width: auto;
+  border-radius: 10px;
   color: white;
 }
 
-#blade1 {
-  background-image: url(../images/bg16.jpg);
+h3 {
+  top: 30%;
+  z-index: 100;
+  color: white;
 }
 
-#blade2 {
-  background-image: url(../images/bg9.jpg);
+h4 {
+  color: white;
+}
+#para {
+  color: white;
+  background-color: black;
+  opacity: 1;
+  width: 50%;
+  border-radius: 10px;
+  z-index: 0;
 }
 
-#blade3 {
-  background-image: url(../images/bg17.jpg);
+#skills {
+  display: inline-block;
+}
+.icon {
+  width: 100px;
+  border-radius: 50%;
+  background: white;
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 1);
+  opacity: 1;
+}
+.icon:hover {
+  opacity: 0.5;
+  animation: spinAround 2s linear infinite;
 }
 
-#blade4 {
-  background-image: url(../images/bg18.jpg);
-}
-
-#blade5 {
-  background-image: url(../images/bg10.jpg);
-}
-
-#submitButton {
-  float: right;
+@keyframes spinAround {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
