@@ -141,10 +141,9 @@ h4 {
   color: white;
 }
 #para {
+  text-align: justify;
   color: white;
-  background-color: black;
   opacity: 1;
-  width: 50%;
   border-radius: 10px;
   z-index: 0;
 }
