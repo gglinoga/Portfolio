@@ -1,7 +1,16 @@
 body {
   background-color: black;
   font-family: "Montserrat", sans-serif;
-  z-index: -1000;
+}
+
+#section1 {
+  position: relative;
+  height: auto;
+  min-height: 300px;
+  background-color: black;
+  color: white;
+  align-content: center;
+
 }
 
 #section2 {
@@ -19,6 +28,10 @@ body {
   top: 20%;
 }
 
+p {
+  color: white;
+  z-index: 500;
+}
 #section3 {
   background-position: center;
   height: auto;
@@ -27,6 +40,9 @@ body {
   top: 20%;
   width: auto;
   align-content: center;
+  color: white;
+  opacity: 1;
+  text-align: center;
 }
 
 #section4 {
@@ -68,15 +84,7 @@ body {
   align-content: center;
 }
 
-#section1 {
-  position: relative;
-  height: auto;
-  min-height: 500px;
-  background-color: black;
-  color: white;
-  align-content: center;
-  top: 50%;
-}
+
 
 #container {
   /* background-color: black; */
@@ -95,8 +103,11 @@ body {
 h1 {
   font-size: 60pt;
   position: relative;
-  top: 40%;
-  height: 200px;
+}
+
+h1:hover {
+  opacity:.5;
+
 }
 
 h2 {
@@ -119,6 +130,11 @@ h3 {
   top: 30%;
   z-index: 100;
   color: white;
+  text-align: left;
+}
+
+h3:hover {
+  opacity: .5;
 }
 
 h4 {
@@ -136,6 +152,11 @@ h4 {
 #skills {
   display: inline-block;
 }
+
+#img-fluid:hover {
+  opacity: .5;
+}
+
 .icon {
   width: 100px;
   border-radius: 50%;
@@ -145,7 +166,7 @@ h4 {
 }
 .icon:hover {
   opacity: 0.5;
-  animation: spinAround 2s linear infinite;
+  animation: spinAround .5s linear infinite;
 }
 
 @keyframes spinAround {
