@@ -17,6 +17,8 @@ $(document).ready(function() {
 });
 
 
+
+
 $(window).scroll(function() {
 		var scrollDistance = $(window).scrollTop();
 
