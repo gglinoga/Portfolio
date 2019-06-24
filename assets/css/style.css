@@ -10,7 +10,6 @@ body {
   background-color: black;
   color: white;
   align-content: center;
-
 }
 
 #section2 {
@@ -84,8 +83,6 @@ p {
   align-content: center;
 }
 
-
-
 #container {
   /* background-color: black; */
   opacity: 0.9;
@@ -95,8 +92,7 @@ p {
   height: auto;
 } */
 
-
-#d-block mb-4 h-100:hover{
+#d-block mb-4 h-100:hover {
   opacity: 0.5;
 }
 
@@ -105,10 +101,10 @@ h1 {
   position: relative;
 }
 
-h1:hover {
+/* h1:hover {
   opacity:.5;
 
-}
+} */
 
 h2 {
   font-size: 60pt;
@@ -133,8 +129,12 @@ h3 {
   text-align: left;
 }
 
-h3:hover {
+/* h3:hover {
   opacity: .5;
+} */
+
+hr {
+  color: white;
 }
 
 h4 {
@@ -152,20 +152,101 @@ h4 {
   display: inline-block;
 }
 
+#img-fluid {
+  width: 200;
+  height: 200;
+}
 #img-fluid:hover {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .icon {
   width: 100px;
   border-radius: 50%;
   background: white;
-  box-shadow: 0 0 0 4px rgba(255, 255, 255, 1);
-  opacity: 1;
+  box-shadow: 0 0 0 30px rgba(255, 255, 255, 1);
+  opacity: 0.5;
 }
 .icon:hover {
-  opacity: 0.5;
-  animation: spinAround .5s linear infinite;
+  opacity: 1;
+ 
+  -webkit-animation: swing 1s ease;
+  animation: swing 1s ease;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+ 
+
+  /* opacity: 1;
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5); */
+
+  /* animation: spinAround .5s linear infinite;
+        box-shadow: inset 0 0 0 25px white; */
+}
+
+/* #jsIcon {
+  box-shadow: 0 0 0 50px rgba (255, 255, 255, 1);
+  border: 20px;
+
+} */
+/* 
+#mongoIcon{
+  box-shadow: 0 0 0 20px rgba (255, 255, 255, 1);
+} */
+
+@-webkit-keyframes swing {
+  15% {
+    -webkit-transform: translateX(5px);
+    transform: translateX(5px);
+    
+  }
+  30% {
+    -webkit-transform: translateX(-5px);
+    transform: translateX(-5px);
+  }
+  50% {
+    -webkit-transform: translateX(3px);
+    transform: translateX(3px);
+  }
+  65% {
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+  }
+  80% {
+    -webkit-transform: translateX(2px);
+    transform: translateX(2px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+@keyframes swing {
+  15% {
+    -webkit-transform: translateX(5px);
+    transform: translateX(5px);
+  }
+  30% {
+    -webkit-transform: translateX(-5px);
+    transform: translateX(-5px);
+  }
+  50% {
+    -webkit-transform: translateX(3px);
+    transform: translateX(3px);
+  }
+  65% {
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+  }
+  80% {
+    -webkit-transform: translateX(2px);
+    transform: translateX(2px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
 }
 
 @keyframes spinAround {
