@@ -47,7 +47,7 @@ p {
   opacity: 1;
 }
 #section2 {
-  min-height: 500px;
+  min-height: 600px;
   height: auto;
   background-position: center;
   background-repeat: no-repeat;
@@ -122,12 +122,19 @@ p {
   opacity: 0.9;
 }
 
-/* #row{
-  height: auto;
-} */
 
 #d-block mb-4 h-100:hover {
   opacity: 0.5;
+}
+
+#gg{
+  position: relative;
+  left: 30%;
+  top:50%;
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 10px rgba(255, 255, 255, 1);
+  
 }
 
 h1 {
@@ -175,6 +182,8 @@ h4 {
   opacity: 1;
   border-radius: 10px;
   z-index: 0;
+  position: relative;
+  top:10%;
 }
 
 #skills {
