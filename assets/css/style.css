@@ -464,9 +464,14 @@ h4 {
     text-align:center;
     left: 40%;
   }
+
+  .imgWrapperInner{
+    top: 100px;
+  }
+
   .img-thumbnail{
-    min-height: 100px;
-    min-width: 1px;
+    height: 90px;
+    width: 120px;
   }
 
   h5{
@@ -475,6 +480,7 @@ h4 {
 
   .desc{
     font-size: 8pt;
+    display: none;
   }
 
   /* .projectIcon{
