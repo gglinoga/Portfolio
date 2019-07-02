@@ -465,7 +465,7 @@ h4 {
     left: 40%;
   }
   .img-thumbnail{
-    min-height: 200px;
+    min-height: 100px;
     min-width: 1px;
   }
 
