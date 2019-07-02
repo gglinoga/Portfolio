@@ -464,5 +464,31 @@ h4 {
     text-align:center;
     left: 40%;
   }
+  .img-thumbnail{
+    min-height: 200px;
+    min-width: 1px;
+  }
 
+  h5{
+    font-size: 20pt;
+  }
+
+  .desc{
+    font-size: 8pt;
+  }
+
+  /* .projectIcon{
+    right: 100px;
+  } */
+  .pdfWrapper{
+    height: auto;
+    width: auto;
+  }
+  #pdfIcon{
+    bottom: 5%;
+  }
+
+  .pdfWrapper:hover .pdfWrapperInner:hover {
+    top: 200px;
+  }
 }
