@@ -185,6 +185,8 @@ p {
 }
 
 #gg {
+  align-content: center;
+  text-align: center;
   position: relative;
   left: 30%;
   top: 50%;
@@ -451,4 +453,16 @@ h4 {
   to {
     transform: rotate(360deg);
   }
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 30pt;
+  }
+  #gg {
+    width: 100px;
+    text-align:center;
+    left: 40%;
+  }
+
 }
