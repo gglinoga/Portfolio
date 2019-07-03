@@ -470,8 +470,8 @@ h4 {
   }
 
   .img-thumbnail{
-    height: 90px;
-    width: 120px;
+    min-height: 150px;
+    min-width: 200px;
   }
 
   h5{
@@ -487,8 +487,8 @@ h4 {
     right: 100px;
   } */
   .pdfWrapper{
-    height: auto;
-    width: auto;
+    height: 500px;
+    width: 300px;
   }
   #pdfIcon{
     bottom: 5%;
